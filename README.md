@@ -1,7 +1,7 @@
 # ConcurrencyCruise
 A project utilizing concurrency to simulate passengers entering a ship and a captain ensuring the ship isnt overfilled.
 
-Made with: Java, JavaFx, Java's built in concurrency mechanisms
+Made with: Java, JavaFx, XML, Java's built in concurrency mechanisms
 
 The capacity of the bridge to the ship and the ship itself can be configured at the beginning of the simulation, otherwise the default values are taken from the config.xml file.
 The passengers do not know the ship's capacity or the number of passengers on it, and will always try to enter when theres free space on the bridge to it.
